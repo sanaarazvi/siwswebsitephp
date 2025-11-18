@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching Staff - Self-Finance Science | SIWS College</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<style>
+    .faculty-section {
+        padding: 50px 10%;
+        background: #f9f9f9;
+        text-align: center;
+    }
+    .faculty-section h1 {
+        margin-bottom: 50px;
+        font-size: 36px;
+        color: #333;
+    }
+    .faculty-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .faculty-card {
+        background: #fff;
+        border-radius: 10px;
+        width: 220px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .faculty-card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .faculty-card h3 {
+        font-size: 18px;
+        margin: 10px 0 5px;
+        color: #333;
+    }
+    .faculty-card p {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/siwslogo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Self-Finance Science Faculty</h1>
+    </section>
+
+    <section class="faculty-section">
+        <div class="faculty-row">
+            <!-- Faculty 1 -->
+            <div class="faculty-card">
+                <img src="images/Ranimaam.png" alt="Faculty 1">
+                <h3>Er. R Santha Maria Rani</h3>
+                <p>Head of Department , IT</p>
+                <p>Email: ranimario@siwscollege.edu.in</p>
+            </div>
+            <!-- Faculty 2 -->
+            <div class="faculty-card">
+                <img src="images/Virginmaam.png" alt="Faculty 2">
+                <h3>B. VirginMary Fernando</h3>
+                <p>Assistant Proffessor</p>
+                <p>Email: virginfernando@siwscollege.edu.in</p>
+            </div>
+            <!-- Faculty 3 -->
+            <div class="faculty-card">
+                <img src="images/Gayatrimaam.png" alt="Faculty 3">
+                <h3>Ms. Gayatri Venkatachalam</h3>
+                <p>Assistant Professor</p>
+                <p>Email: gayatrivenkatachalam@siwscollege.edu.in</p>
+            </div>
+            <!-- Faculty 4 -->
+            <div class="faculty-card">
+                <img src="images/NityashreeMaam.png" alt="Faculty 4">
+                <h3>Dr. Nityashree Nadar</h3>
+                <p>Assistant Professor</p>
+                <p>Email: nityashreenadar@siwscollege.edu.in</p>
+            </div>
+            <!-- Faculty 5 -->
+            <div class="faculty-card">
+                <img src="images/Nikhilsir.png" alt="Faculty 5">
+                <h3>Tr. Nikhil Mamaniya</h3>
+                <p>Librarian & Asst.Prof, CS ,IT ,DS,AI</p>
+                <p>Email: nikhilm@siwscollege.edu.in</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Vidya Dhanam Sarva Dhanat Pradhanam”<br>emphasizes individual intellectual development, collaborative learning, and a strong commitment to serving the broader community</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+       
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

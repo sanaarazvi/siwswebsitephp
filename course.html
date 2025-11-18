@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/siwslogo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        
+            <div class="course-col">
+                <h3>Under graduate Program</h3>
+                <p>B.Sc. (Information Technology)<span>Duration : 6 semesters</span><span>Eligibility: A student must have passed Std. XII (Higher Secondary Certificate Examination) conducted by any statutory board with minimum 45% Passing (Open) and 40% (Reserved) in First Attempt with Mathematics subject </span></p>
+                <p>Bachelor of Science ( Computer Science) <span>Duration 3 years ( 6 Semesters) </span><span>Eligibility A student must have passed Std. XII Science(Higher Secondary Certificate Examination) conducted by any statutory board with Mathematics subject. </span></p>
+            </div>
+            <div class="course-col">
+                <h3>Postgraduate Program</h3>
+                <p>Master of Science – Information Technology (M.Sc. I.T.)<span>Duration : 4 semesters</span><span>Eligibility: A student must have passed B.Sc. IT/CS/DS/AI </span></p>
+                <p>Master of Science – Computer Science (M.Sc. C.S.) <span>Duration 2 years: 4 Semesters </span><span>Eligibility A student must have passed B.Sc. IT/CS/DS/AI </span></p>
+            </div>
+            <div class="course-col">
+                <h3>Doctor Program</h3>
+                <p>Comming Soon.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/siwslibrary.jpg">
+                    <h3>Library</h3>
+                    <p>Dr Kishore Manilal Shah Library of SIWS College is an integral part of academic and research work at the college. The library provides information services to support the teaching, learning, research and outreach activities of the Institute.The library is housed on the 4th floor of the Main building. In a total layout area of 4000sq.ft, there is a Reading hall with a capacity to accommodate 200 students and 20 teachers, a Research Center which offers services to research students.The Library has a collection of 15000 print books and subscribes to about 55 print periodicals pertaining to various programs and subjects offered by the institute every year. </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/Turf.jpg">
+                    <h3>Turf/Basketball area</h3>
+                    <p>SIWS College has a well-maintained outdoor turf used for football, cricket, and other outdoor sports.
+
+The turf is primarily synthetic or grass-covered and suitable for college-level sports activities and tournaments.
+
+It is also occasionally used for sports events, cultural programs, and outdoor gatherings.
+
+Approximate area: The turf is of standard college size, roughly half to full football field size, enough for multiple sports activities simultaneously.The college has a dedicated basketball court within the campus.
+
+The court is outdoor, marked with standard dimensions (approx. 28 m × 15 m) and has proper hoops and backboards.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/siwscafeteria.png">
+                    <h3>Cafeteria</h3>
+                    <p>Situated in the rear of the college main building, a suitable place for grapevine communication; serving folks with aromatic beverages and appetizing brunch.
+
+The institute pertains its tradition not only through the infrastructure, academics, staffs and students but also in the healthy and hygienic food served by the canteen.
+
+The Canteen also serves delicious and sumptuous South Indian varieties including sweets at various ceremonies.
+
+</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Vidya Dhanam Sarva Dhanat Pradhanam”
+emphasizes individual intellectual development, collaborative learning, and a strong commitment to serving the broader community<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+       
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
